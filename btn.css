@@ -1,0 +1,49 @@
+.colorchange {
+    height: 200px;
+}
+.piggybank {
+    background-color: lime;
+}
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    
+
+    .keyboard {
+        background-color: rgb(9, 130, 90);
+        border-radius: 3px;
+          }
+    .a {
+        background-color: rgb(80, 154, 128);
+        width: 50px;
+        height: 40px;
+        border-radius: 5px;
+        color: white;
+    }
+    .backspace,.caplock,.enter,.shift {
+        background-color: rgb(80, 154, 128);
+        width: 95px;
+        height: 40px;
+        border-radius: 5px;
+        color: white;
+    }
+    .space{
+        background-color: rgb(80, 154, 128);
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        color: white;
+    }
+    #myTextarea {
+        background-color: rgb(80, 154, 128);
+        border-radius: 3px;
+        font-weight: 500;    
+        letter-spacing: 1px;  
+        
+    }
+    
+
+

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Refresh my dev knowledge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="btn.css">
+  </head>
+  <body>
+    <!-- Color changeing button start-->
+    <div class="container colorchange text-center w-100 mb-5">
+        <div class="btndiv">
+            <button type="button" id="colorbtn" class="btn btn-success btn-lg mt-5">Change Background Color</button>
+        </div>
+    </div>
+    <!-- Color changeing button end-->
+
+    <!-- Counter start-->
+    <div class="container piggybank text-center">
+        <div class="mb-5">
+           <h4>Add money to piggybank</h4>
+        <input id="addinput" type="number" >
+        <button id="addbtn" >Add</button>
+        </div>
+        <div class="mb-5">
+           <h4>Withdraw money from piggybank</h4>
+        <input id="withdrawinput" type="number" >
+        <button id="withdrawbtn" >Withdraw</button>
+        </div>
+        <div>
+            <h3 class="pb-4 total">Piggybank current total is 0 €</h3>
+        </div>
+        
+        
+    </div>
+    
+    <!-- Counter end-->
+    
+    <!--Virtual keyboard start-->
+    <div class="container text-center keyboard mt-4">
+        
+        <div class="row pt-3 ">
+            <div class="col">
+                <button id="button1" class="a">1</button>
+                <button id="button2" class="a">2</button>
+                <button id="button3" class=" a">3</button>
+                <button id="button4" class=" a">4</button>
+                <button id="button5" class=" a">5</button>
+                <button id="button6" class=" a">6</button>
+                <button id="button7" class=" a">7</button>
+                <button id="button8" class=" a">8</button>
+                <button id="button9" class=" a">9</button>
+                <button id="buttonZero" class=" a">0</button>
+                <button id="buttonX" class="backspace">Backspace</button>
+            </div>
+        </div>
+        <div class="row pt-1">
+            <div class="col">
+                <button id="buttonQ" class="a">Q</button>
+                <button id="buttonW" class=" a">W</button>
+                <button id="buttonE" class=" a">E</button>
+                <button id="buttonR" class=" a">R</button>
+                <button id="buttonT" class=" a">T</button>
+                <button id="buttonY" class=" a">Y</button>
+                <button id="buttonU" class=" a">U</button>
+                <button id="buttonI" class=" a">I</button>
+                <button id="buttonO" class=" a">O</button>
+                <button id="buttonP" class="a">P</button>
+            </div>
+        </div>
+        <div class="row pt-1">
+            <div class="col">
+                <button id="buttonCL" class="caplock capsoff">Cap lock</button>
+                <button id="buttonA" class="a">A</button>
+                <button id="buttonS" class=" a">S</button>
+                <button id="buttonD" class=" a">D</button>
+                <button id="buttonF" class=" a">F</button>
+                <button id="buttonG" class=" a">G</button>
+                <button id="buttonH" class=" a">H</button>
+                <button id="buttonJ" class=" a">J</button>
+                <button id="buttonK" class=" a">K</button>
+                <button id="buttonL" class=" a">L</button>
+                <button id="buttonEnter" class="enter">Enter</button>
+            </div>
+            
+        </div>
+        <div class="row pt-1">
+            <div class="col">
+                <button id="buttonShift" class="shift shiftoff">Shift</button>
+                <button id="buttonZ" class=" a">Z</button>
+                <button id="buttonX" class=" a">X</button>
+                <button id="buttonC" class=" a">C</button>
+                <button id="buttonV" class=" a">V</button>
+                <button id="buttonB" class=" a">B</button>
+                <button id="buttonN" class=" a">N</button>
+                <button id="buttonM" class=" a">M</button>
+                <button id="buttonComma" class=" a">,</button>
+                <button id="buttonDot" class=" a">.</button>
+                <button id="buttonQuestionMark" class=" a">?</button>
+            </div>
+            
+        </div>
+        <div class="row justify-content-center pt-1">
+            <div class="col">
+               <button id="buttonSpace" class="space">Space</button> 
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <textarea id="myTextarea" rows="4" cols="50"></textarea>
+        </div>
+    </div>
+    <!--Virtual keyboard end-->
+
+    
+    <script src="btn.js"></script>
+  </body>
+</html>
